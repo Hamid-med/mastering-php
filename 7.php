@@ -28,7 +28,25 @@
 	Étape 4 - Connectez-vous à la base de données et lisez les données 
 	*/
 	
+	$db =new mysqli("localhost","root","","base2");
+
+	$db->query("INSERT INTO amis (nom, prenom, age) VALUES('hamid', 'mohammed', '24')");
+
+	$sql="SELECT * from amis";
+	$query=mysqli_query($db,$sql);
+	while($rows=mysqli_fetch_assoc($query)){
+		echo $rows['nom'];
+		echo nl2br("\r\n");
+		echo $rows['prenom'];
+		echo nl2br("\r\n");
+		echo $rows['age'];
+		echo nl2br("\r\n");
+	}
+
+	
 	?>
+
+	
 
 
 

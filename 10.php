@@ -26,6 +26,40 @@
 	Étape 6: Appelez la méthode AfficherTout
 	
 	*/
+	class chien {
+        public $name;
+        public $type;
+        public $color;
+
+        function set_name($name){
+            $this->name = $name;
+        }
+
+        function set_type($type){
+            $this->type = $type;
+        }
+
+        function set_color($color){
+            $this->color = $color;
+        }
+
+        function afficherTout(){
+            echo $this->name;
+            echo nl2br("\r\n");
+            echo $this->type;
+            echo nl2br("\r\n");
+            echo $this->color;
+        }
+    }
+
+    $boui = new chien();
+
+    $boui->set_name('gorge');
+    $boui->set_type('alien');
+    $boui->set_color('transparent');
+
+
+    $boui->afficherTout();
 	
 	?>
 

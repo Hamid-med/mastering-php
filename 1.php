@@ -27,6 +27,9 @@
 
 		   */
 
+		/* fonction qui affiche Bonjour*/
+		   echo " <h1>Bonjour</h1>"
+
 		?>
 
 	

@@ -23,6 +23,25 @@
 	Étape 3: Utilisez une fonction Array prédéfinie ici et faites-en écho 
 
  */
+/*  
+	Étape 1:
+	*/
+	echo max(9,7);
+	echo "</br>";
+	/*  
+	Étape 2:
+	*/
+
+	echo strtolower("HELLO");
+	echo "</br>";
+	/*  
+	Étape 3:
+	*/
+
+	$array=["Hamid","Ali"];
+	array_push($array,"Oussama");
+	echo $array[2];
+
 
 	
 ?>

@@ -24,6 +24,53 @@
 
  */
 
+/*facultatif avec if, elseif et else*/
+
+ function test($forma){
+	 if(!$forma){
+		 echo "tapi chi 7aja";
+	 }
+	 elseif(!($forma=="greenchip")){
+		 echo "ghalat a lbalad";
+	 }
+	 else{
+		 echo "I love greenchip :p";
+	 }
+ }
+
+test("greenchip");
+echo "</br>";
+
+/*un forloop*/
+
+for($i=1; $i<=10 ; $i++){
+	echo $i;
+	echo "</br>";
+}
+/*une instruction switch*/
+
+$j=1;
+switch ($j) {
+    case 0:
+        echo "'j' égal 0";
+        break;
+    case 1:
+        echo "'j' égal 1";
+        break;
+    case 2:
+        echo "'j' égal 2";
+        break;
+	case 3:
+		echo "'j' égal 3";
+		break;
+	case 4:
+		echo "'j' égal 5";
+		break;
+}
+
+
+
+
 	
 ?>
 

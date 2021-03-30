@@ -30,7 +30,31 @@
 			
 
 			 */
+		/* 
+		Étape 1:
+		*/
+			
+		$nbr1=10;
+		$nbr2=20;
+		/* 
+		Étape 2:
+		*/
 
+		$somm=$nbr1+$nbr2;
+		echo $somm;
+		/* 
+		Étape 3:
+		*/
+		
+		$regulier=["Hamid","Mohammed"];
+		$associatif=["Nom" =>"Hamid","prenom"=>"Mohammed"];
+		/* 
+		Étape 4:
+		*/
+
+		define("constValo","PHP");
+		echo"</br>";
+		echo constValo;
 		
 
 

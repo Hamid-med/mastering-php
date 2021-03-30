@@ -23,7 +23,21 @@
 
  */
 
-	
+/*  
+	Étape 1:
+	*/
+function calcu($nbr1,$nbr2){
+	echo $nbr1 * $nbr2;
+}
+calcu(2,5);
+echo "</br>";
+/*  
+	Étape 1:
+	*/
+function identite(string $text1,string $text2){
+	echo $text1.' '.$text2;
+}
+identite("gc2.0", " topleft");
 ?>
 
 

@@ -26,6 +26,9 @@
 
 	Étape 4 - Échoyez de la variable 
 	*/
+	$var = "password";
+    $cryptedVar = crypt($var, "randomKeyWordToEncryptApassWord!");
+    echo $cryptedVar;
 	
 	?>
 

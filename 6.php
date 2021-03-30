@@ -19,9 +19,15 @@
 /*  
 	Étape 1: Créez un formulaire qui soumet une seule valeur à POST (super global)
  */
-
-	
+if(isset($_POST['send'])){
+	echo $_POST['name'];
+}	
 ?>
+
+<form action="6.php" method="post"> 
+	<input type="text" name="name">
+	<button type="submit" name="send">click me</button>
+</form>
 
 
 </article><!--MAIN CONTENT-->
